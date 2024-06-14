@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+@font-face{                              
+  font-family: gta;                      
+  src: url(pricedown\ bl.otf);                                             
+}
+body{
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  text-align: justify;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+           /* --------------------------------------------------- */
+#img1{
+  width: 4%;
+  height: 4%;
+  margin-left: 35%;
+  margin-top: 2%;
+} 
+#img1:hover{
+  width: 5%;
+  height: 5%;
+}
+#h1{
+  margin-top: -5.2%;
+  text-align: center;
+  font-family: gta;     
+  font-size: 90px;
+}
+#h1:hover{
+  -webkit-text-stroke-width: 2px;            /* largura da borda */
+  -webkit-text-stroke-color: #ffffff;      /* cor da borda */
+}
+
+             /* --------------------topo------------------- */
+
+.container1{
+ margin-top: -2%;
+}
+#nav1{
+  background: linear-gradient(#ffe53d, #b65cd6);
+  width: 100%;
+  height: 60px; 
+  margin-top: -2%;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0%;
+  text-align: center;              /* centraliza os itens */
+  border: 2px;
+}
+
+nav ul li {
+  display: inline-block;          /* faz os itens ficarem lado a lado */
+  margin-right: 6%;              /* espaçamento entre os itens */
+  margin-left: 6%;             /* usei pra deixar centralixado no meio */
+  padding-top:15px; 
+}
+
+nav ul li a {
+  font-family: gta;
+  font-size: 25px;
+  color: #ffffff;
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color: #000000; /* cor da borda */
+  text-decoration: none;
+  overflow: hidden;
+}
+nav ul li a:hover {
+ color: #000000;
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: #ffffff; 
+}
+@media (max-width: 900px) {
+  nav ul {
+
+    flex-direction: column;      /* Coloca os itens um abaixo do outro */
+    width: 100%;                /* Tamanho total na largura disponível */
+    background: linear-gradient(#ffe53d, #b65cd6);
+    padding: 6px;
+    padding-bottom: -5%;
+  }
+}
+              /* --------------------menu-------------------------------- */
+
+#topico4{
+  margin-left: 7%;
+  margin-top: 5%;
+  font-family: gta;
+  font-size: 30px;
+}
+@media (max-width: 900px){
+  #topico4{
+    margin-top: 10%
+  }
+}
+#img5{
+  width: 40%;
+  height: 40%;
+  border-radius: 10%;
+}
+#infos4{
+  text-align: center;
+}
+#img6{
+  width: 40%;
+  height: 40%;
+  border-radius: 10%;
+}
+          /* ---------------------------------------- */
+#topico5{
+  margin-left: 7%;
+  margin-top: 5%;
+  font-family: gta;
+  font-size: 30px;
+}
+#infos5{
+  text-align: center;
+}
+
